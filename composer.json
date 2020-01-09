@@ -1,0 +1,11 @@
+{
+    "name": "root/html",
+    "require": {
+        "php-http/guzzle6-adapter": "^2.0",
+        "geocoder-php/yandex-provider": "^4.2",
+        "php-http/curl-client": "^2.1",
+        "guzzlehttp/psr7": "^1.6",
+        "php-http/message": "^1.8",
+        "geocoder-php/free-geoip-provider": "^4.2"
+    }
+}

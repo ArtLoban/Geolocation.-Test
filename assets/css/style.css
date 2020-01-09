@@ -1,0 +1,39 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+    height: 100%;
+}
+
+.GeoLocation--Title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.GeoLocation--Info {
+    display: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #c7c6c6;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 1px 6px rgba(132, 141, 134, 0.4);
+}
+
+.GeoLocation--Info span {
+    color: purple;
+}
